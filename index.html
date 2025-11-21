@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sagar Epili — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--accent:#0f62fe;--muted:#6b7280;--bg:#f7fafc;font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:#0f1724;line-height:1.5}
+    .container{max-width:980px;margin:40px auto;padding:24px;background:#fff;border-radius:12px;box-shadow:0 6px 22px rgba(15,23,36,.06)}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:110px;height:110px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:26px}
+    .meta{color:var(--muted);margin-top:6px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:28px;margin-top:22px}
+    section{background:linear-gradient(180deg,#fff,#fbfdff);padding:18px;border-radius:10px}
+    h2{margin:0 0 10px 0;font-size:18px}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#f1f5f9;color:var(--muted);font-size:13px;margin:6px 6px 0 0}
+    ul{padding-left:18px;margin:8px 0}
+    .projects .project{margin-bottom:12px}
+    footer{margin-top:20px;text-align:center;color:var(--muted);font-size:14px}
+    a{color:var(--accent);text-decoration:none}
+    .contact-row{display:flex;flex-direction:column;gap:8px}
+    .contact-row a{word-break:break-all}
+    @media (max-width:880px){.grid{grid-template-columns:1fr;}.container{margin:18px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">SE</div>
+      <div>
+        <h1>Sagar Epili</h1>
+        <div class="meta">B.Sc. Information Technology — Guru Nanak College, Mumbai<br>Mumbai, India</div>
+        <div style="margin-top:10px;color:var(--muted);font-size:14px">Email: <a href="mailto:sagarepili14@gmail.com">sagarepili14@gmail.com</a> • Phone: <a href="tel:9324482743">9324482743</a></div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section>
+          <h2>About</h2>
+          <p>I'm currently pursuing SYBSC-IT, fueled by an insatiable curiosity for all things tech. I see every challenge as an opportunity to innovate and learn something new. My passion for technology drives me to build solutions that make a difference in the digital world.</p>
+          <p style="margin-top:10px;color:var(--muted);font-size:14px">Quick note: update the LinkedIn link in the contact panel at the right with your actual profile URL.</p>
+        </section>
+
+        <section style="margin-top:16px">
+          <h2>Projects</h2>
+          <div class="projects">
+            <div class="project">
+              <strong>Hospital Management (Frontend)</strong>
+              <p style="margin:6px 0">Designed and implemented the frontend of a hospital management system using HTML, CSS, and JavaScript, focusing on a responsive UI and modular components for maintainability.</p>
+            </div>
+
+            <div class="project">
+              <strong>ToDo App</strong>
+              <p style="margin:6px 0">Built a ToDo app that enables users to create, prioritize, and persist daily tasks. Features include due-date highlighting, completion strikethroughs, and basic text formatting using HTML, CSS, and JavaScript.</p>
+            </div>
+
+            <div class="project">
+              <strong>Weather Forecast App</strong>
+              <p style="margin:6px 0">Designed a weather forecast app with location-based data and 5–7 day forecasts using HTML, CSS, JavaScript, and Streamlit for a responsive frontend. Integrated wind, temperature, and ZIP-code search features.</p>
+            </div>
+          </div>
+        </section>
+
+        <section style="margin-top:16px">
+          <h2>Education</h2>
+          <ul>
+            <li><strong>B.Sc. Information Technology</strong>, Guru Nanak College of Arts, Science and Commerce — 2024 - Present, Mumbai, Maharashtra</li>
+            <li style="margin-top:6px"><strong>Higher Secondary Education</strong>, Saraswati Vidya Niketan College — 2022 - 2024, Mumbai, Maharashtra (PCM & IT, 54%)</li>
+            <li style="margin-top:6px"><strong>Secondary Education</strong>, Karthika High School — March 2022, Mumbai, Maharashtra (65.20%)</li>
+          </ul>
+        </section>
+
+        <section style="margin-top:16px">
+          <h2>Certifications & Activities</h2>
+          <ul>
+            <li>NPTEL — Fuzzy Logic and Neural Network (certificate)</li>
+            <li>NSS Volunteer</li>
+          </ul>
+        </section>
+      </main>
+
+      <aside>
+        <section>
+          <h2>Skills</h2>
+          <div class="pill">Python</div>
+          <div class="pill">HTML</div>
+          <div class="pill">CSS</div>
+          <div class="pill">SQL</div>
+        </section>
+
+        <section style="margin-top:14px">
+          <h2>Contact & Links</h2>
+          <div class="contact-row">
+            <div>Email: <a href="mailto:sagarepili14@gmail.com">sagarepili14@gmail.com</a></div>
+            <div>Phone: <a href="tel:+919324482743">+91 93244 82743</a></div>
+            <div>Location: Mumbai, India</div>
+            <div>LinkedIn: <a href="https://www.linkedin.com/in/sagar-epili-5213ab344" id="linkedin-placeholder">linkedin.com/in/sagar-epili-5213ab344</a></div>
+          </div>
+        </section>
+
+        <section style="margin-top:14px">
+          <h2>Download Resume</h2>
+          <p style="margin:6px 0">You can download a copy of the resume used to create this site.</p>
+          <a href="Sagar%20Epili_Resume.pdf" download>Download PDF</a>
+        </section>
+
+        
+      </aside>
+    </div>
+
+    <footer>
+      Built with care • © <span id="year"></span> Sagar Epili
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // If you have a LinkedIn URL, update the href and text of the link below.
+    // Example: document.getElementById('linkedin-placeholder').href = 'https://www.linkedin.com/in/your-profile';
+    // document.getElementById('linkedin-placeholder').textContent = 'linkedin.com/in/your-profile';
+  </script>
+</body>
+</html>
